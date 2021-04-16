@@ -86,7 +86,7 @@ public class EgovLoginController {
     		                   HttpServletRequest request, HttpServletResponse response,
     		                   ModelMap model)
             throws Exception {
-
+    	System.out.print("하하");
     	// 1. 일반 로그인 처리
         LoginVO resultVO = loginService.actionLogin(loginVO);
 
